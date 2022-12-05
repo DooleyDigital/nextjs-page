@@ -6,7 +6,9 @@ const nextConfig = {
   swcMinify: true,
   images: {loader:"akamai",
         path:"",
-  }
+  },
+  basePath: "/nextjs-page",
+  assetPrefix: "/nextjs-page"
 }
 
 module.exports = nextConfig
